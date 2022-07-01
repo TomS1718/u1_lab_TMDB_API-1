@@ -13,7 +13,7 @@ searchbtn.addEventListener('click', async () => {
 
 
   const renderList = response.data.results;
-console.log(response.data.results)
+
   renderList.forEach((movie) => {
     const movieItem = document.createElement('li')
     const moviePoster = document.createElement('img')
